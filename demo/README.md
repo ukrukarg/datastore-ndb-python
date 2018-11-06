@@ -24,9 +24,12 @@ This folder also has a demo for using ndb from outside of App Engine. You can us
 ### Setup
 
 1. Copy ndb (the entire folder) into the demo subdirectory.
+
+           cp -r ndb/ demo/app/ndb/
+           
 2. Deploy the demo application using the command:
 
-           gcloud app deploy demo/app.yaml
+           gcloud app deploy demo/app/app.yaml
 
     This will deploy the app to your default project, which you can configure using gcloud:
 
